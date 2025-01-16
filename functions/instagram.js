@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+const fetch = require('node-fetch');  // importからrequireに変更
 
 exports.handler = async function(event, context) {
   try {
